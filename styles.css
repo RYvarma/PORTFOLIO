@@ -133,7 +133,7 @@ img {
 @media screen and (max-width: 767px) {
  
   .nav__link {
-      color: #000000;
+      color: #ffffff;
   }
   .nav__menu {
     position: fixed;
