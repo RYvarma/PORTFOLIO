@@ -7,9 +7,9 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --hue-color: 0; /* Set hue to 0 for black */
+  --first-color: hsl(var(--hue-color), 0%, 0%); /* Black */
+  --second-color: hsl(var(--hue-color), 0%, 12%); /* Darker black */
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -48,6 +48,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: #E5F4E3; /* Changed background color */
 }
 
 h1, h2, p {
@@ -110,8 +111,15 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #0044ffd1;
+  background-color: #000000d1; /* Black */
   box-shadow: 0 1px 4px rgb(0, 0, 0);
+}
+.l-header .nav__logo {
+  color: #ffffff; /* Change header text color to white */
+}
+
+.l-header .nav__toggle {
+  color: #ffffff; /* Change navigation button color to white */
 }
 
 /*===== NAV =====*/
@@ -231,7 +239,7 @@ img {
   transition: 0.3s;
 }
 .button:hover {
-  box-shadow: 1px 1px 25px rgb(0, 55, 110);
+  box-shadow: 1px 1px 25px rgb(0, 0, 0);
 }
 
 /* ===== ABOUT =====*/
@@ -488,4 +496,3 @@ img {
     width: 450px;
   }
 }
-
