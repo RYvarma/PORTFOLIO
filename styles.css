@@ -133,7 +133,7 @@ img {
 @media screen and (max-width: 767px) {
  
   .nav__link {
-      color: #ffffff;
+      color: #000000;
   }
   .nav__menu {
     position: fixed;
@@ -142,7 +142,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    color:#ffffff;;
+    background-color:#000000;;
     transition: 0.5s;
   }
 }
